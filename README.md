@@ -15,4 +15,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Mumya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mumya&show_icons=true&theme=gradient)
+![Mumya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mumya&show_icons=true&theme=)
+![Mumya's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Mumya)
