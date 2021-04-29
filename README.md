@@ -16,5 +16,5 @@ Here are some ideas to get you started:
 -->
 
 ![Mumya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mumya&show_icons=true&theme=cobalt)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mumya&langs_count=8&card_width=20)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mumya&langs_count=8&langs_count=10)
 
