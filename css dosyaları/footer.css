@@ -1,0 +1,27 @@
+.footer{
+    padding-top: 0%;
+    padding-bottom: 1%;
+    color: black;
+    height:auto;
+    background-color: #A797A4;
+}
+.footer h3 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+footer img {
+    height: 30px;
+    display: inline-flexbox;
+}
+footer .sosyal{
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    padding-right: 1%;
+    padding-left:1%;
+}

@@ -1,0 +1,14 @@
+.parag1 p {
+    font-size: large;
+    line-height: 1.6;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color:aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-style: italic;
+}
+.parag1 a {
+    text-decoration:none; 
+    color: rgb(163, 193, 219);
+    
+}

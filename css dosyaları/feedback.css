@@ -1,0 +1,13 @@
+.feedback_yeri {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kutusu {
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+.kutusu label {
+    margin-bottom: 1%;
+}
