@@ -4,8 +4,8 @@
 @import "css dosyaları/feedback.css";
 
 body {
-    background-color:#233042;
-    color: aliceblue;
+    background-color:#000000;
+    color: red;
 }
 .welcome{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
