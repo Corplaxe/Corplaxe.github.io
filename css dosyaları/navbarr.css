@@ -20,25 +20,25 @@
   
 .navbar a{
     text-decoration: none;
-    color: rgb(208, 229, 247);
+    color: rgb(255, 255, 255);
 }
 .navbar button{
     font-size:13px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:bold;
+    font-weight:lighter;
     text-decoration:none;
-    text-shadow:2px 1px 0px #adc783;
-    background-color:#A0A98A;
+    text-shadow:2px 1px 0px #000000;
+    background-color:#FFFFFF;
     border-radius:7px;
-    border:1px solid #97B4E4;
+    border:1px solid #FF0000;
     display:inline-block;
     cursor:pointer;
     padding:12px 15px;
     text-decoration:none;
-    text-shadow:1px 1px 0px #2f6627;
+    text-shadow:1px 1px 0px #000000;
 }
 .navbar button:hover {
-    background-color:#4C5A62    ;
+    background-color:#FFFFFF    ;
 }
 .navbar button:active {
     position:relative;
