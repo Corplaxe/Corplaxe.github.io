@@ -3,7 +3,7 @@
 @import "css dosyaları/parag.css";
 
 body {
-    background="https://i.pinimg.com/564x/38/e3/42/38e342f5490eb155e5bd8f99608a304a.jpg";
+    background-color: #000000;
     color: red;
 }
 .welcome{
