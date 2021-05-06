@@ -20,22 +20,22 @@
   
 .navbar a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #000000;
 }
 .navbar button{
     font-size:13px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:lighter;
     text-decoration:none;
-    text-shadow:2px 1px 0px #000000;
-    background-color:#FFFFFF;
+    text-shadow:2px 1px 0px #FF0000;
+    background-color:#000000;
     border-radius:7px;
     border:1px solid #FF0000;
     display:inline-block;
     cursor:pointer;
     padding:12px 15px;
     text-decoration:none;
-    text-shadow:1px 1px 0px #000000;
+    text-shadow:1px 1px 0px #FF0000;
 }
 .navbar button:hover {
     background-color:#FFFFFF    ;
