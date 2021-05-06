@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+![Mumya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mumya&show_icons=true&title_color=ff0000&text_color=808080&icon_color=ffffff&border_color=ff0000&bg_color=000000)
+[![](https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=black)](https://instagram.com/pcjs.7)
