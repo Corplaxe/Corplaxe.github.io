@@ -1,0 +1,14 @@
+@import "css dosyaları/navbarr.css";
+@import "css dosyaları/footer.css";
+@import "css dosyaları/parag.css";
+@import "css dosyaları/loadersite.css";
+
+body {
+    background-color:#000000;
+    color: red;
+}
+.welcome{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align:center;
+}

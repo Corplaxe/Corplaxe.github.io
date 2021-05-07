@@ -3,12 +3,31 @@
 @import "css dosyaları/parag.css";
 @import "css dosyaları/loadersite.css";
 
-body {
-    background-color:#000000;
-    color: red;
-}
+
 .welcome{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     text-align:center;
+}
+body, html {
+
+    height: 100%;
+
+}
+
+.bg { 
+/* Kullanılan Resim */
+background-image: url("/media/bakmak.jpeg");
+
+/* Full yükseklik */
+
+height: 100%; 
+
+/* Resmi  ortalayın ve ölçeklendirin */
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+background-size: cover;
 }
