@@ -2,32 +2,18 @@
 @import "css dosyaları/footer.css";
 @import "css dosyaları/parag.css";
 @import "css dosyaları/loadersite.css";
-
-
 .welcome{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    text-align:center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: italic;
+text-align:center;
 }
 body, html {
-
-    height: 100%;
-
+height: 100%;
 }
-
 .bg { 
-/* Kullanılan Resim */
-background-image: url("/media/bakmak.jpeg");
-
-/* Full yükseklik */
-
+background-image: url("/media/bg.jpg");
 height: 100%; 
-
-/* Resmi  ortalayın ve ölçeklendirin */
-
 background-position: center;
-
 background-repeat: no-repeat;
-
 background-size: cover;
 }
