@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="yanmenu.css">
+<body>
+<nav role="navigation">
+  <div id="menuToggle">
+ <!--
+ Sahte / gizli bir onay kutusu, tıklama alıcısı olarak kullanılır,
+ 
+ böylece : işaretli seçiciyi kullanabilirsiniz. 
+    -->
+
+    <input type="checkbox" />
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <ul id="menu">
+      <a href="#"><li>Anasayfa</li></a>
+      <a href="#"><li>PHP</li></a>
+      <a href="#"><li>CSS</li></a>
+      <a href="#"><li>HTML</li></a>
+    </ul>
+  </div>
+</nav> 
