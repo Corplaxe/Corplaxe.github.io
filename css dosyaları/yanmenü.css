@@ -7,11 +7,6 @@
 <body>
 <nav role="navigation">
   <div id="menuToggle">
- <!--
- Sahte / gizli bir onay kutusu, tıklama alıcısı olarak kullanılır,
- 
- böylece : işaretli seçiciyi kullanabilirsiniz. 
-    -->
 
     <input type="checkbox" />
     
