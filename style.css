@@ -1,19 +1,5 @@
 @import "css dosyaları/menu.css";
 @import "css dosyaları/footer.css";
 @import "css dosyaları/parag.css";
-
-.welcome{
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-style: unset;
-text-align:center;
-}
-body, html {
-height: 100%;
-}
-.bg { 
-background-image: url("/media/bg.jpg");
-height: 100%; 
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
+@import "css dosyaları/welcome.css";
+@import "css dosyaları/background.css"
