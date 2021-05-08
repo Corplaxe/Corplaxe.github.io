@@ -149,3 +149,6 @@ a:hover
 {
   transform: none;
 }  
+.sidenav {
+  right: 0;
+}
