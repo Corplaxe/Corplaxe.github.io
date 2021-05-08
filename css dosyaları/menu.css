@@ -1,10 +1,7 @@
 .ul {
     list-style-type: none;
-
     margin: 0;
-
     padding: 0;
-
     overflow: hidden;
 }
 .li {
@@ -13,18 +10,13 @@
 
 .li a {
     display: block;
-
     padding:12px 14px;
-
     background-color: #070779c6;
 }
 .ul {
     list-style-type: none;
-
     margin: 0;
-
     padding: 0;
-
     overflow: hidden;
 }
 .li {
@@ -33,13 +25,9 @@
 
 .li a {
     display: block;
-
     padding:12px 16px;
-
     background-color: #27ae60;
-
     color:white;
-
     text-decoration:none; 
 }
 .li a:hover{
