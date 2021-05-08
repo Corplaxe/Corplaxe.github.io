@@ -7,3 +7,14 @@ ul {
 
     overflow: hidden;
 }
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+
+    padding:12px 14px;
+
+    background-color: #27ae60;
+}
