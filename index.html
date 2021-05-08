@@ -13,26 +13,23 @@
 
 
 
-<div class="circ">
-  <div class="load">Loading . . . </div>
-  <div class="hands"></div>
-  <div class="body"></div>
-  <div class="head">
-    <div class="eye"></div>
-  </div>
-</div>
 
 
 
-<script>$(window).load(function(){
-  $('.load').hide();
-  $('.eye').show(); 
-  $('.head').show();
-  $('.body').show();
-  $('.circ').show();
-  $('.hands').show();
+
+<body><div class="loader-wrapper">
+  <span class="loader"><span class="loader-inner"></span></span>
+</div> </body>
+
+<body><script>
+  $(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
   });
-</script>
+</script> </body>
+
+
+
+
 
 
 <body>
