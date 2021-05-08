@@ -1,36 +1,13 @@
-ul {
-    list-style-type: none;
-
-    margin: 0;
-
-    padding: 0;
-
-    overflow: hidden;
-}
-.li {
-    float: left;
-}
-
-.li a {
-    display: block;
-
-    padding:12px 14px;
-
-    background-color: #27ae60;
-}
-
 .ul {
     list-style-type: none;
-
     margin: 0;
-
     padding: 0;
-
     overflow: hidden;
 }
 .li {
     float: left;
 }
+
 
 .li a {
     display: block;
