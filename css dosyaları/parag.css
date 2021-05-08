@@ -8,7 +8,7 @@
     font-style: initial
 }
 .parag1 a {
-    text-decoration:none; 
+    text-decoration:rgba(red, green, blue, alpha); 
     color: #FFFFFF;
     
 }
