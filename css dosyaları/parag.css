@@ -1,11 +1,11 @@
 .parag1 p {
-    font-size: large;
+    font-size:xx-large;
     line-height: 1.6;
     padding-top: 1%;
     padding-bottom: 1%;
-    color:red;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    font-style: italic;
+    color:rgb(149, 255, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-style: initial
 }
 .parag1 a {
     text-decoration:none; 
