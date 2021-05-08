@@ -1,9 +1,9 @@
 .parag1 p {
-    font-size:xx-large;
+    font-size:larger;
     line-height: 1.6;
     padding-top: 1%;
     padding-bottom: 1%;
-    color:rgb(149, 255, 0);
+    color:rgb(0, 145, 255);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     font-style: initial
 }
