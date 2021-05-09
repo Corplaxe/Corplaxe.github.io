@@ -1,0 +1,10 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  
+  /* make it look decent enough */
+  background: #000000;
+  color: #ffffff;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
