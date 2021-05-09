@@ -1,0 +1,25 @@
+{
+  "name": "mumya.github.io",
+  "version": "0.0.1",
+  "description": "Kişisel Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mumya/Mumya.github.io.git"
+  },
+  "keywords": [
+    "website",
+    "blog",
+    "discord",
+    "develop"
+  ],
+  "author": "Tuna HAS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mumya/Mumya.github.io/issues"
+  },
+  "homepage": "https://github.com/Mumya/Mumya.github.io#readme"
+}
