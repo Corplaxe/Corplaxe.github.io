@@ -4,22 +4,22 @@ body
   padding: 0;
   
   /* make it look decent enough */
-  background: #232323;
-  color: #cdcdcd;
+  background: #000000;
+  color: #844444;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
 a
 {
   text-decoration: none;
-  color: #232323;
+  color: #ffffff;
   
   transition: color 0.3s ease;
 }
 
 a:hover
 {
-  color: tomato;
+  color: rgb(255, 0, 0);
 }
 
 #menuToggle
