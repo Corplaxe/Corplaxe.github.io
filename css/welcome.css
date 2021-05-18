@@ -1,6 +1,6 @@
 .welcome{
-    color: crimson;
+    color: rgb(255, 0, 0);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: wavy;
+    font-style: italic;
     text-align:center;
 }
