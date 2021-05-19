@@ -1,4 +1,8 @@
 .bg { 
     background-color: gray;
-    color: gray;
-    }
+    background-image: url("https://picsum.photos/300/300/?random");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
