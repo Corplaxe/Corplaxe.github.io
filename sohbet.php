@@ -2,7 +2,7 @@
         <div class="container">
             <div class="card bg-light">
                 <div class="card-header">
-                 Sohbet Uygulaması
+                 Selam Chat
                 </div>
                 <div class="card-body" style="; height: 500px;">
                     <!-- Giriş ekranı tasarımı başlangıcı -->
