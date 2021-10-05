@@ -1,0 +1,8 @@
+.dega { 
+    background-image: url("../media/hacking.jpeg");
+    background-position: center;
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(81, 75, 82);
+}
