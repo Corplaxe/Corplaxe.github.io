@@ -109,7 +109,24 @@
  </pre></td></tr></table></div>
 
   
-
+ <body>
+  <div>
+       <div class="paragraf1">
+           <p>
+            <br>
+            <title>Snap's Market Applications Error</title>
+            İf you can't start the snap applications.You can try to the use below commands.<br>
+            <div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #cccccc">apparmor_parser</span> <span style="color: #3399cc">-</span><span style="color: #cccccc">r</span> <span style="color: #3399cc">/</span><span style="color: #cccccc">var</span><span style="color: #3399cc">/</span><span style="color: #cccccc">lib</span><span style="color: #3399cc">/</span><span style="color: #cccccc">snapd</span><span style="color: #3399cc">/</span><span style="color: #cccccc">apparmor</span><span style="color: #3399cc">/</span><span style="color: #cccccc">profiles</span><span style="color: #3399cc">/*</span>
+<span style="color: #cccccc">systemctl</span> <span style="color: #cccccc">enable</span> <span style="color: #3399cc">--</span><span style="color: #cccccc">now</span> <span style="color: #cccccc">apparmor</span><span style="color: #3399cc">.</span><span style="color: #cccccc">service</span>
+<span style="color: #cccccc">systemctl</span> <span style="color: #cccccc">enable</span> <span style="color: #3399cc">--</span><span style="color: #cccccc">now</span> <span style="color: #cccccc">snapd</span><span style="color: #3399cc">.</span><span style="color: #cccccc">apparmor</span><span style="color: #3399cc">.</span><span style="color: #cccccc">service</span>
+</pre></td></tr></table></div>
+<br>
+           </p>
+       </div>
+   </div>
+</body>
 
 
 </html>
