@@ -2,49 +2,76 @@
 <html lang="en">
  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset=UTF-8">
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/loader.css"/>
     <link rel="icon" href="media/favicon.ico" type="image/icon type" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript" src="/index.js" ></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8114376028068246"crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./index.js"></script>
     <title>Mumya</title>
     <body class="bg"></body>
 
-    <!-- <div class="circ">
-      <div class="load">Loading . . . </div>
-      <div class="hands"></div>
-      <div class="body"></div>
-      <div class="head"></div>
-      <div class="eye"></div>            
-      </div>
 
-      <script>
-        $(window).on("load",function(){$("load").fadeOut("slow");}),
-        $(window).on("load",function(){$("body").fadeOut("slow");}),
-        $(window).on("load",function(){$("hands").fadeOut("slow");}),
-        $(window).on("load",function(){$("head").fadeOut("slow");}),
-        $(window).on("load",function(){$("eye").fadeOut("slow");})
-    </script>  -->
-  
+    <style>
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #2b2b2b;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #ff0000;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      </style>
+
  </head>
  
+ <div id="YanMenu" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+  &times;</a>
+  <a href="index.html">Home Page</a>
+  <a href="mlaye.html">Mlaye</a>
+  <a href="linktree.html">Social Media</a>
+</div>
 
-  <ul>
-   <li><a href="https://mumya.github.io/">Home Page</a></li>
-   <li><a href="#Aboutme">About Me</a>
-      <ul>
-       <li><a href="me.html">Who am i?</a></li>
-      </ul>
-   </li>
-   <li><a href="linktree.html">Link Tree</a></li>
-   <li><a href="cyber.html">Linux Errors</a></li>
-   <li><a href="mlaye.html">Discord Bots And Servers</a></li>
-  </ul>
-
- 
- 
-
- 
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+  &#9776; </span>
+</div>
 
 
  <body>
@@ -61,19 +88,38 @@
  
  <body>
     <div>
-         <div class="paragraf1">
+         <div class="paragraf1">  
+           <div align="center"><img src="media/bakmak.jpeg" title="Selamun Aleykum" width="500" height="400"></div>
              <p>
-               The future is in your hands.<br>
-
-               Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System's go to LUA and change value with 0.<br>
-               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8114376028068246"crossorigin="anonymous"></script>
-              <br>
+                <br> The future is in your hands.
+                
+                <br> Hello bro. My name is Tuna. I live in Turkey. I'm from Bosnia. I'm 18 years old. I like play games and coding. Music and art is one of the my interest. 
+                I opened this site both to learn css and html and because I wanted to have an internet identity. If u want to contact with me you can find my social media accounts on linktree page.
+                <br>Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System's go to LUA and change value with 0.
+                <br>you are getting a python-related error while installing Veil Framework on Linux,replace the 587th line in the <mark>/usr/share/veil/config/setup.sh</mark> file with the code below and save it and run the <mark>veil --setup</mark> command again.
+                <br><mark>sudo -u "${trueuser}" WINEPREFIX="${winedir}" wine "${winedir}/drive_c/Python34/python.exe" "-m" "pip" "install" "-Iv" "pefile==2019.4.18"</mark>
+                <br><mark>Snap's Market Applications Error</mark>
+                <br>İf you can't start the snap applications.You can try to the use below commands.
+                <br>apparmor_parser -r /var/lib/snapd/apparmor/profiles/*
+                <br>systemctl enable --now apparmor.service
+                <br>systemctl enable --now snapd.apparmor.service
              </p>
          </div>
      </div>
+
+
+
+     <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+
+
+
+
  </body>
-      
-
- 
-
 </html>

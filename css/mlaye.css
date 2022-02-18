@@ -1,33 +1,27 @@
+
 body {
-    font-family: 'Poppins', sans-serif !important;
-    background-color: #1D1E28;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2b2b2b;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    border-top: 6px #AD91FF solid !important;
+    border-top: 6px #ff0000 solid !important;
     font-size: 16px;
 }
 
 .nav-link {
      font-size: 14px !important;
      background: transparent !important;
-     font-family: Lato, sans-serif !important;
+     font-family: 'Open Sans', sans-serif;
      text-transform: capitalize !important;
  }
  .nav-link:hover {
      background: transparent !important;
-     color: #AD91FF !important;
+     color: #000000 !important;
      font-weight: bold !important;
  }
 
- .login-btn {
-     border: 2px solid #AD91FF !important;
-     font-size: 10px !important;
- }
- .login-btn:hover {
-     background: #AD91FF !important;
- }
 .navbar {
     box-shadow: none !important
 }
@@ -42,36 +36,38 @@ body {
 
 .btn {
     border-radius: 10px !important;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px !important;
     font-weight: 600 !important;
     text-transform: uppercase !important;
 }
 
 .btn-primary {
-    background-color: #AD91FF!important
+    background-color: #ff0000!important
 }
 .btn-secondary {
-    background-color: #2C2F33 !important
+    background-color: #000000 !important
 }
 .heading {
     padding: 160px 50px !important;
     color: #fff !important;
-    background-image: url("../assets/wavy-red-by-corplaxe.svg") !important;
+    background-image: url("./../media/crred.png") !important;
     background-position: bottom !important;
-    background-size: 300% !important;
+    background-size: 100% !important;
     background-repeat: no-repeat !important;
 }
 
 .title {
     line-height: 90px !important;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: -2px !important;
     font-size: 36px !important
 }
 
 .subtitle {
-    color: rgba(255, 255, 255, 0.685) !important;
+    color: #ffffff !important;
     font-size: 16px !important;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -79,20 +75,22 @@ body {
     text-align: center !important;
     background: #ff0000 !important;
     padding: 60px 50px !important;
-    background-image: url("../assets/wavy-dark-by-nouridio.svg") !important;
+    background-image: url("../media/crredreverse.png") !important;
     background-position: bottom !important;
-    background-size: 200% !important;
+    background-size: 100% !important;
     background-repeat: no-repeat !important;
 }
 .features .title {
     font-size: 40px !important;
-    color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000 !important;
     line-height: 70px !important;
 }
 
 .features .subtitle {
     font-size: 20px !important;
-    color: #a2a8bd;
+    font-family: 'Open Sans', sans-serif;
+    color: #2b2b2b;
 }
 
 .features .card-body {
@@ -101,6 +99,7 @@ body {
 
 .features .card-title {
     margin: 0 0 -3px !important;
+    font-family: 'Open Sans', sans-serif;
 }
 .cards {
     margin-top: 30px !important;
@@ -113,8 +112,9 @@ body {
 
 .card-title {
     font-size: 28px !important;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600 !important;
-    color: #AD91FF !important;
+    color: #000000 !important;
 }
 
 .statistics {
@@ -133,11 +133,13 @@ body {
 .statistics .title {
     font-size: 40px !important;
     color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif;
     line-height: 70px !important;
 }
 
 .statistics .subtitle {
     font-size: 20px !important;
+    font-family: 'Open Sans', sans-serif;
     color: #a2a8bd;
 }
 
@@ -149,9 +151,9 @@ body {
 
 
 .page_end {
-    background-image: url("../assets/wavy-light-by-nouridio.svg") !important;
+    background-image: url("./../media/crred.png") !important;
     background-position: bottom !important;
-    background-size: 200% !important;
+    background-size: 100% !important;
     background-repeat: no-repeat !important;
 }
 .start {
@@ -164,12 +166,13 @@ body {
 }
 
 .features .card {
-    background: #1D1E28;
+    background: #2b2b2b;
     border-radius: 22px !important;
     border: 4px solid #000000;
 }
 .features .card-text {
-color: rgba(255, 255, 255, 0.46) !important
+color: #ffffff !important;
+font-family: 'Open Sans', sans-serif;
 }
 
 .features .card-body {
@@ -187,7 +190,7 @@ color: rgba(255, 255, 255, 0.46) !important
 }
 
 .footer .nouridio {
-    font-family: 'Montserrat' !important;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal !important;
     font-weight: 600 !important;
     font-size: 16px !important;
@@ -205,3 +208,111 @@ color: rgba(255, 255, 255, 0.46) !important
     text-align: center !important;
     color: #a2a8bd !important
 }
+
+::-webkit-scrollbar {
+	width: 12.2px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 1000px #38383b; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #202225; 
+	border-radius: 4px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 81, 81); 
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .commandstitle {
+    color: #ffffff;
+}
+.commandssub {
+    color: gray;
+}
+.searchbox {
+    background-color: #2b2a38;
+    padding: 15px 27px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ccc;
+    border: 3px solid #2b2a38;
+    border-radius: 8px;
+    width: 40%;
+}
+.border {
+    width: 65%;
+    height: 2px;
+    background: #fff;
+    margin-left: 17.5%;
+}
+.collapsible {
+    background-color: #202225;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .collapsible span {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+}
+/* .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  } */
+  .content {
+    padding: 0 18px;
+    width: 50%;
+    margin-left: 25%;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #2f3136;
+    color: #6a707a;
+    text-align: left;
+    display: none;
+  }
+  .content h4 {
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .licetitle {
+    color: #ffff;
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .textlice {
+    box-sizing: border-box;
+    color:  #ffff;
+    margin: 3px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+  }

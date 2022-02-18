@@ -1,0 +1,44 @@
+.welcome{
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align:center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.paragraf1 p {
+    font-size:larger;
+    line-height: 1.6;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color:rgb(255, 255, 255);
+    font-family:Impact, 'Haettenschweiler', Arial Narrow Bold, sans-serif; 
+}
+
+.paragraf1 a {
+    text-decoration:rgba(red, green, blue, alpha); 
+    color: #FFFFFF;
+}
+
+body{
+  margin:10px 10px;
+  padding: 0;
+  background: #ffffff;
+  color: #ffffff;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+.bg { 
+    background-image: url("../media/bg.jpg");
+    background-position: center;
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(81, 75, 82);
+}

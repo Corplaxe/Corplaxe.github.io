@@ -1,9 +1,4 @@
-@import "css/footer.css";
-@import "css/paragraf.css";
-@import "css/welcome.css";
-@import "css/background.css";
-@import "css/body.css";
-@import "css/mloader.css";
-@import "css/trollul.css";
-@import "css/ymenu.css";
-@import "css/linktree.css"
+@import "css/bootstrap.min.css";
+@import "css/index.css";
+@import "css/linktree.css";
+@import "css/now-ui-kit.css";
