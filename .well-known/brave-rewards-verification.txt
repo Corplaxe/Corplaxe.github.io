@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
-Domain: mumya.github.io
-Token: 7c98b8125ea4b15ad9410145dd6dc113000c19a808ddec0492e3bc87671b0277
+Domain: corplaxe.github.io
+Token: a3a82e7b3654051caab2ee3ccefdbe835f0f1b64c1c6fbe3e24bddee4145bf07
